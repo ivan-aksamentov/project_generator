@@ -1,0 +1,9 @@
+[submodule "common"]
+	path = common
+	url = https://github.com/ivan-aksamentov/common.git
+[submodule "cmake/cool-cmake-config"]
+	path = cmake/cool-cmake-config
+	url = https://github.com/ivan-aksamentov/cool-cmake-config.git
+[submodule "assets/QDarkStyleSheet"]
+	path = assets/QDarkStyleSheet
+	url = https://github.com/ColinDuquesnoy/QDarkStyleSheet.git
