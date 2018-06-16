@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.8)
 include(FindPackageHandleStandardArgs)
 unset(GoogleTest_FOUND)
 
-find_library(Threads REQUIRED)
+find_package(Threads REQUIRED)
 
 find_path(GoogleTest_INCLUDE_DIR
         NAMES
@@ -114,13 +114,11 @@ if(GOOGLETEST_FOUND)
 
     add_library(GoogleTest INTERFACE IMPORTED)
 
-    target_include_directories(GoogleTest
-        INTERFACE
+    target_include_directories(GoogleTest INTERFACE
         ${GoogleTest_INCLUDE_DIR}
     )
 
-    target_link_libraries(GoogleTest
-        INTERFACE
+    target_link_libraries(GoogleTest INTERFACE
 
         # For windows in debug mode
         $<$<BOOL:${WIN32}>:$<$<CONFIG:DEBUG>:${GoogleTest_gtest_LIBRARY_DEBUG}>>

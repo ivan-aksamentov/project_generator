@@ -3,7 +3,6 @@ cmake_policy(SET CMP0069 NEW)
 
 project(plchldr_tests)
 
-find_package(Threads REQUIRED)
 find_package(GoogleTest REQUIRED)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
