@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
+    <generated />
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="gcc-8-debug" CONFIG_NAME="Debug" TOOLCHAIN_NAME="gcc-8" GENERATION_DIR=".build/gcc-8-debug" BUILD_OPTIONS="-j16" />
+      <configuration PROFILE_NAME="gcc-8-release" CONFIG_NAME="Release" TOOLCHAIN_NAME="gcc-8" GENERATION_DIR=".build/gcc-8-release" BUILD_OPTIONS="-j16" />
+      <configuration PROFILE_NAME="gcc-8-asan" CONFIG_NAME="ASAN" TOOLCHAIN_NAME="gcc-8" GENERATION_DIR=".build/gcc-8-asan" BUILD_OPTIONS="-j16" />
+      <configuration PROFILE_NAME="gcc-8-msan" CONFIG_NAME="MSAN" TOOLCHAIN_NAME="gcc-8" GENERATION_DIR=".build/gcc-8-msan" BUILD_OPTIONS="-j16" />
+      <configuration PROFILE_NAME="gcc-8-tsan" CONFIG_NAME="TSAN" TOOLCHAIN_NAME="gcc-8" GENERATION_DIR=".build/gcc-8-tsan" BUILD_OPTIONS="-j16" />
+      <configuration PROFILE_NAME="gcc-8-ubsan" CONFIG_NAME="UBSAN" TOOLCHAIN_NAME="gcc-8" GENERATION_DIR=".build/gcc-8-ubsan" BUILD_OPTIONS="-j16" />
+      <configuration PROFILE_NAME="clang-6-debug" CONFIG_NAME="Debug" TOOLCHAIN_NAME="clang-6" GENERATION_DIR=".build/clang-6-debug" BUILD_OPTIONS="-j16" />
+      <configuration PROFILE_NAME="clang-6-release" CONFIG_NAME="Release" TOOLCHAIN_NAME="clang-6" GENERATION_DIR=".build/clang-6-release" BUILD_OPTIONS="-j16" />
+      <configuration PROFILE_NAME="clang-6-asan" CONFIG_NAME="ASAN" TOOLCHAIN_NAME="clang-6" GENERATION_DIR=".build/clang-6-asan" BUILD_OPTIONS="-j16" />
+      <configuration PROFILE_NAME="clang-6-msan" CONFIG_NAME="MSAN" TOOLCHAIN_NAME="clang-6" GENERATION_DIR=".build/clang-6-msan" BUILD_OPTIONS="-j16" />
+      <configuration PROFILE_NAME="clang-6-tsan" CONFIG_NAME="TSAN" TOOLCHAIN_NAME="clang-6" GENERATION_DIR=".build/clang-6-tsan" BUILD_OPTIONS="-j16" />
+      <configuration PROFILE_NAME="clang-6-ubsan" CONFIG_NAME="UBSAN" TOOLCHAIN_NAME="clang-6" GENERATION_DIR=".build/clang-6-ubsan" BUILD_OPTIONS="-j16" />
+    </configurations>
+  </component>
+</project>
