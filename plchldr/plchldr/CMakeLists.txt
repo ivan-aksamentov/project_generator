@@ -18,7 +18,7 @@ add_library(${PROJECT_NAME} STATIC
             src/plchldr.cu)
 
 target_compile_definitions(${PROJECT_NAME}
-    PUBLIC -D${PROJECT_NAME}=1
+    PUBLIC ""
 )
 
 target_include_directories(${PROJECT_NAME}

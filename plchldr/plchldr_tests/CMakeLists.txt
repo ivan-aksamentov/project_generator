@@ -13,7 +13,7 @@ add_executable(${PROJECT_NAME}
 )
 
 target_compile_definitions(${PROJECT_NAME}
-    PUBLIC -D${PROJECT_NAME}=1
+    PUBLIC -DAPP_NAME="${PROJECT_NAME}"
 )
 
 target_include_directories(${PROJECT_NAME}
