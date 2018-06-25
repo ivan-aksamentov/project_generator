@@ -4,6 +4,7 @@ Standard: Cpp11
 ColumnLimit: 80
 DerivePointerAlignment: false
 PointerAlignment: Left
+AlignAfterOpenBracket: false 
 AllowShortBlocksOnASingleLine: false
 AllowShortBlocksOnASingleLine: false
 AllowShortCaseLabelsOnASingleLine: false
